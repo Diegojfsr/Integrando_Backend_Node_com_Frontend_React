@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "title": "Hey Jude",
+      "artistId": 1,
+      "album": "Hey Jude",
+      "releaseYear": 1968
+    },
+    {
+      "id": 2,
+      "title": "Halo",
+      "artistId": 2,
+      "album": "I Am... Sasha Fierce",
+      "releaseYear": 2008
+    },
+    {
+      "id": 3,
+      "title": "Get Lucky",
+      "artistId": 3,
+      "album": "Random Access Memories",
+      "releaseYear": 2013
+    }
+  ]
+  

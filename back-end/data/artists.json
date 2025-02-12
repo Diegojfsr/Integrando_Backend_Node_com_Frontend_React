@@ -1,0 +1,21 @@
+[
+    {
+      "id": 1,
+      "name": "The Beatles",
+      "genre": "Rock",
+      "country": "United Kingdom"
+    },
+    {
+      "id": 2,
+      "name": "Beyoncé",
+      "genre": "Pop",
+      "country": "United States"
+    },
+    {
+      "id": 3,
+      "name": "Daft Punk",
+      "genre": "Electronic",
+      "country": "France"
+    }
+  ]
+  

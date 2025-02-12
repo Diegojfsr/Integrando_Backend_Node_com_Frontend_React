@@ -1,0 +1,83 @@
+/* Reset básico para garantir consistência entre navegadores */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 400px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 50px 0 0 50px
+  /* margin-bottom: 10px; */
+}
+
+button[type="submit"] {
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  background-color: #4285f4;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: -1px; /* Ajuste para remover a borda dupla */
+}
+
+button[type="submit"]:hover {
+  background-color: #357ae8;
+}
+
+
+/* Estilos para os Resultados da Busca */
+.results-section {
+  margin-top: 20px;
+}
+
+.results-section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.results-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.results-section li {
+  background: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 50px;
+  margin-bottom: 10px;
+}
+
+.results-section li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.results-section li a:hover {
+  text-decoration: underline;
+}
